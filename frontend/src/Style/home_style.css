@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.flex-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  height: 100vh;
+  min-width: 100vw;
+}
+.flex-picture {
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+}
+.logPicture {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  flex-wrap: nowrap;
+}
+
+.register-card {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
